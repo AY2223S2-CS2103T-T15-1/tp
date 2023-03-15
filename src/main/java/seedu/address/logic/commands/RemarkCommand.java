@@ -37,10 +37,27 @@ public class RemarkCommand extends Command {
         this.remark = remark;
     }
 
-    public static final String MESSAGE_NOT_IMPLEMENTED_YET =
-            "Remark command not implemented yet";
     @Override
     public CommandResult execute(Model model) throws CommandException {
-        throw new CommandException(MESSAGE_NOT_IMPLEMENTED_YET);
+        throw new CommandException(
+                String.format(MESSAGE_ARGUMENTS, index.getOneBased(), remark));
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        // short circuit if same object
+        if (other == this) {
+            return true;
+        }
+
+        // instanceof handles nulls
+        if (!(other instanceof RemarkCommand)) {
+            return false;
+        }
+
+        // state check
+        RemarkCommand e = (RemarkCommand) other;
+        return index.equals(e.index)
+                && remark.equals(e.remark);
     }
 }
