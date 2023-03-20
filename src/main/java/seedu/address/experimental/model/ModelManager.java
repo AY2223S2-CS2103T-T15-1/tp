@@ -11,10 +11,10 @@ import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import seedu.address.commons.core.GuiSettings;
 import seedu.address.commons.core.LogsCenter;
-import seedu.address.model.entity.Character;
-import seedu.address.model.entity.Entity;
-import seedu.address.model.entity.Item;
-import seedu.address.model.entity.Mob;
+import seedu.address.obsolete.obsoletemodel.entity.Character;
+import seedu.address.obsolete.obsoletemodel.entity.Entity;
+import seedu.address.obsolete.obsoletemodel.entity.Item;
+import seedu.address.obsolete.obsoletemodel.entity.Mob;
 
 /**
  * Represents the in-memory model of the Reroll data.

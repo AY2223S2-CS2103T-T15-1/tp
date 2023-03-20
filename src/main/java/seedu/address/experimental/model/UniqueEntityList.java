@@ -8,9 +8,9 @@ import java.util.List;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import seedu.address.model.entity.Entity;
-import seedu.address.model.person.exceptions.DuplicatePersonException;
-import seedu.address.model.person.exceptions.PersonNotFoundException;
+import seedu.address.obsolete.obsoletemodel.entity.Entity;
+import seedu.address.obsolete.obsoletemodel.person.exceptions.DuplicatePersonException;
+import seedu.address.obsolete.obsoletemodel.person.exceptions.PersonNotFoundException;
 
 /**
  * A list of entities that enforces uniqueness between its elements and does not allow nulls.

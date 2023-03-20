@@ -1,6 +1,6 @@
 package seedu.address.experimental.model;
 
-import seedu.address.model.entity.Mob;
+import seedu.address.obsolete.obsoletemodel.entity.Mob;
 
 /**
  * Abstraction of all Mobs

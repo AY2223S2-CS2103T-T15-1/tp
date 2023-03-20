@@ -2,7 +2,7 @@ package seedu.address.ui;
 
 import javafx.scene.control.Label;
 import javafx.scene.layout.Region;
-import seedu.address.model.entity.Entity;
+import seedu.address.obsolete.obsoletemodel.entity.Entity;
 
 /**
  * Panel containing the detailed view of the entity.

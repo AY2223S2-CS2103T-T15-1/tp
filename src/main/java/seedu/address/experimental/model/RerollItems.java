@@ -1,6 +1,6 @@
 package seedu.address.experimental.model;
 
-import seedu.address.model.entity.Item;
+import seedu.address.obsolete.obsoletemodel.entity.Item;
 
 
 /**

@@ -1,7 +1,7 @@
 package seedu.address.experimental.model;
 
 import javafx.collections.ObservableList;
-import seedu.address.model.entity.Entity;
+import seedu.address.obsolete.obsoletemodel.entity.Entity;
 
 /**
  * TBC

@@ -8,13 +8,13 @@ import java.util.regex.Pattern;
 
 import seedu.address.logic.commands.AddEntityCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
-import seedu.address.model.entity.Character;
-import seedu.address.model.entity.Classification;
-import seedu.address.model.entity.Entity;
-import seedu.address.model.entity.Item;
-import seedu.address.model.entity.Mob;
-import seedu.address.model.entity.Name;
-import seedu.address.model.tag.Tag;
+import seedu.address.obsolete.obsoletemodel.entity.Character;
+import seedu.address.obsolete.obsoletemodel.entity.Classification;
+import seedu.address.obsolete.obsoletemodel.entity.Entity;
+import seedu.address.obsolete.obsoletemodel.entity.Item;
+import seedu.address.obsolete.obsoletemodel.entity.Mob;
+import seedu.address.obsolete.obsoletemodel.entity.Name;
+import seedu.address.obsolete.obsoletemodel.tag.Tag;
 
 /**
  * Parses input arguments and creates a new AddCommand object

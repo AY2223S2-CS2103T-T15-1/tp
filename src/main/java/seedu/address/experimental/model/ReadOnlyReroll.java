@@ -1,8 +1,8 @@
 package seedu.address.experimental.model;
 
-import seedu.address.model.entity.Character;
-import seedu.address.model.entity.Item;
-import seedu.address.model.entity.Mob;
+import seedu.address.obsolete.obsoletemodel.entity.Character;
+import seedu.address.obsolete.obsoletemodel.entity.Item;
+import seedu.address.obsolete.obsoletemodel.entity.Mob;
 /***/
 public interface ReadOnlyReroll {
     public ReadOnlyEntities<Item> getItems();

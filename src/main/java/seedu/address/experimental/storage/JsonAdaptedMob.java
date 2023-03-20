@@ -10,10 +10,10 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import seedu.address.commons.exceptions.IllegalValueException;
-import seedu.address.model.entity.Mob;
-import seedu.address.model.entity.Name;
-import seedu.address.model.entity.Stats;
-import seedu.address.model.tag.Tag;
+import seedu.address.obsolete.obsoletemodel.entity.Mob;
+import seedu.address.obsolete.obsoletemodel.entity.Name;
+import seedu.address.obsolete.obsoletemodel.entity.Stats;
+import seedu.address.obsolete.obsoletemodel.tag.Tag;
 
 /***/
 public class JsonAdaptedMob {

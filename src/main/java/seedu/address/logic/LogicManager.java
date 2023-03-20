@@ -17,7 +17,7 @@ import seedu.address.logic.parser.AddressBookParser;
 import seedu.address.logic.parser.EditModeParser;
 import seedu.address.logic.parser.UiSwitchMode;
 import seedu.address.logic.parser.exceptions.ParseException;
-import seedu.address.model.entity.Entity;
+import seedu.address.obsolete.obsoletemodel.entity.Entity;
 
 /**
  * The main LogicManager of the app.
