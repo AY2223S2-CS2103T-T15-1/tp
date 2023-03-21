@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 
 import seedu.address.obsolete.obsoletemodel.AddressBook;
 import seedu.address.obsolete.obsoletemodel.ReadOnlyAddressBook;
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
-import seedu.address.obsolete.obsoletemodel.entity.Name;
-import seedu.address.obsolete.obsoletemodel.tag.Tag;
+import seedu.address.experimental.model.entity.Entity;
+import seedu.address.experimental.model.entity.Name;
+import seedu.address.experimental.model.tag.Tag;
 
 /**
  * Contains utility methods for populating {@code AddressBook} with sample data.

@@ -16,9 +16,9 @@ import seedu.address.experimental.storage.RerollStorage;
 import seedu.address.experimental.storage.Storage;
 import seedu.address.experimental.storage.StorageManager;
 import seedu.address.experimental.storage.UserPrefsStorage;
-import seedu.address.obsolete.obsoletemodel.entity.Character;
-import seedu.address.obsolete.obsoletemodel.entity.Name;
-import seedu.address.obsolete.obsoletemodel.entity.Stats;
+import seedu.address.experimental.model.entity.Character;
+import seedu.address.experimental.model.entity.Name;
+import seedu.address.experimental.model.entity.Stats;
 
 /***/
 public class TesterModelStorage {

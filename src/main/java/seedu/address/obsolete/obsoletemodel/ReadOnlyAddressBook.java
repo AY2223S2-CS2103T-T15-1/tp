@@ -1,7 +1,7 @@
 package seedu.address.obsolete.obsoletemodel;
 
 import javafx.collections.ObservableList;
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
+import seedu.address.experimental.model.entity.Entity;
 
 /**
  * Unmodifiable view of an address book

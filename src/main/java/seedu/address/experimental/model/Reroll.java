@@ -3,10 +3,10 @@ package seedu.address.experimental.model;
 import static java.util.Objects.requireNonNull;
 
 import javafx.collections.ObservableList;
-import seedu.address.obsolete.obsoletemodel.entity.Character;
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
-import seedu.address.obsolete.obsoletemodel.entity.Item;
-import seedu.address.obsolete.obsoletemodel.entity.Mob;
+import seedu.address.experimental.model.entity.Character;
+import seedu.address.experimental.model.entity.Entity;
+import seedu.address.experimental.model.entity.Item;
+import seedu.address.experimental.model.entity.Mob;
 
 // Driver function.
 

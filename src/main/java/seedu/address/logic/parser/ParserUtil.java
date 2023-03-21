@@ -9,12 +9,12 @@ import java.util.Set;
 import seedu.address.commons.core.index.Index;
 import seedu.address.commons.util.StringUtil;
 import seedu.address.logic.parser.exceptions.ParseException;
-import seedu.address.obsolete.obsoletemodel.entity.Classification;
-import seedu.address.obsolete.obsoletemodel.entity.Name;
+import seedu.address.experimental.model.entity.Classification;
+import seedu.address.experimental.model.entity.Name;
 import seedu.address.obsolete.obsoletemodel.person.Address;
 import seedu.address.obsolete.obsoletemodel.person.Email;
 import seedu.address.obsolete.obsoletemodel.person.Phone;
-import seedu.address.obsolete.obsoletemodel.tag.Tag;
+import seedu.address.experimental.model.tag.Tag;
 
 /**
  * Contains utility methods used for parsing strings in the various *Parser classes.

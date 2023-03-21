@@ -1,6 +1,6 @@
 package seedu.address.experimental.model;
 
-import seedu.address.obsolete.obsoletemodel.entity.Character;
+import seedu.address.experimental.model.entity.Character;
 
 /**
  * Abstraction of all characters

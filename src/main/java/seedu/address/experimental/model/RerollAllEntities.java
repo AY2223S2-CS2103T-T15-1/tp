@@ -1,6 +1,6 @@
 package seedu.address.experimental.model;
 
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
+import seedu.address.experimental.model.entity.Entity;
 
 /***/
 public class RerollAllEntities extends RerollEntities<Entity> {

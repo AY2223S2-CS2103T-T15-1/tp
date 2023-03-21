@@ -4,12 +4,12 @@ import java.util.HashSet;
 
 import seedu.address.experimental.model.ReadOnlyReroll;
 import seedu.address.experimental.model.Reroll;
-import seedu.address.obsolete.obsoletemodel.entity.Character;
-import seedu.address.obsolete.obsoletemodel.entity.Item;
-import seedu.address.obsolete.obsoletemodel.entity.Mob;
-import seedu.address.obsolete.obsoletemodel.entity.Name;
-import seedu.address.obsolete.obsoletemodel.entity.Stats;
-import seedu.address.obsolete.obsoletemodel.tag.Tag;
+import seedu.address.experimental.model.entity.Character;
+import seedu.address.experimental.model.entity.Item;
+import seedu.address.experimental.model.entity.Mob;
+import seedu.address.experimental.model.entity.Name;
+import seedu.address.experimental.model.entity.Stats;
+import seedu.address.experimental.model.tag.Tag;
 /***/
 public class SampleDataUtil {
 

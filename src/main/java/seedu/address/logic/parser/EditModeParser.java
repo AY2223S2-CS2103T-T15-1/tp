@@ -21,13 +21,13 @@ import seedu.address.logic.commands.EditValueCommand.EditItemDescriptor;
 import seedu.address.logic.commands.EditValueCommand.EditMobDescriptor;
 import seedu.address.logic.commands.HelpCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
-import seedu.address.obsolete.obsoletemodel.entity.Character;
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
-import seedu.address.obsolete.obsoletemodel.entity.Item;
-import seedu.address.obsolete.obsoletemodel.entity.Mob;
-import seedu.address.obsolete.obsoletemodel.entity.Name;
-import seedu.address.obsolete.obsoletemodel.entity.Stats;
-import seedu.address.obsolete.obsoletemodel.tag.Tag;
+import seedu.address.experimental.model.entity.Character;
+import seedu.address.experimental.model.entity.Entity;
+import seedu.address.experimental.model.entity.Item;
+import seedu.address.experimental.model.entity.Mob;
+import seedu.address.experimental.model.entity.Name;
+import seedu.address.experimental.model.entity.Stats;
+import seedu.address.experimental.model.tag.Tag;
 
 /**
  * Parses user input while in edit mode.

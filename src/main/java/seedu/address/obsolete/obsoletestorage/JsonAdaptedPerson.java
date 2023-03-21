@@ -10,9 +10,9 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import seedu.address.commons.exceptions.IllegalValueException;
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
-import seedu.address.obsolete.obsoletemodel.entity.Name;
-import seedu.address.obsolete.obsoletemodel.tag.Tag;
+import seedu.address.experimental.model.entity.Entity;
+import seedu.address.experimental.model.entity.Name;
+import seedu.address.experimental.model.tag.Tag;
 
 /**
  * Jackson-friendly version of {@link Entity}.

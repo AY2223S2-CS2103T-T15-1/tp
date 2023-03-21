@@ -8,7 +8,7 @@ import java.util.List;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import seedu.address.obsolete.obsoletemodel.entity.Entity;
+import seedu.address.experimental.model.entity.Entity;
 import seedu.address.obsolete.obsoletemodel.person.exceptions.DuplicatePersonException;
 import seedu.address.obsolete.obsoletemodel.person.exceptions.PersonNotFoundException;
 
