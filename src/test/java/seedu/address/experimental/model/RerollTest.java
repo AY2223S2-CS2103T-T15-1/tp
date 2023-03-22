@@ -1,13 +1,16 @@
 package seedu.address.experimental.model;
 
-import org.junit.jupiter.api.Test;
-
-import java.util.Collections;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static seedu.address.testutil.TypicalEntities.getTypicalReroll;
 
+import java.util.Collections;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * Test for Reroll
+ */
 class RerollTest {
 
     private final Reroll reroll = new Reroll();
