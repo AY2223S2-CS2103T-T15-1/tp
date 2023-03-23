@@ -3,6 +3,7 @@ package seedu.address.logic.commands;
 import static java.util.Objects.requireNonNull;
 
 import seedu.address.commons.util.CollectionUtil;
+import seedu.address.experimental.model.Model;
 import seedu.address.experimental.model.ReadOnlyEntities;
 import seedu.address.experimental.model.entity.Name;
 import seedu.address.logic.commands.exceptions.CommandException;
@@ -39,7 +40,7 @@ public class EditCommand extends Command {
     }
 
     @Override
-    public CommandResult execute(seedu.address.experimental.model.Model model) throws CommandException {
+    public CommandResult execute(Model model) throws CommandException {
         requireNonNull(model);
         ReadOnlyEntities rerollEntities;
         switch (toEditClassification) {
@@ -57,6 +58,7 @@ public class EditCommand extends Command {
         }
 
         for (Object entity : rerollEntities.getEntityList()) {
+            // Could fix the slap on this?
             if (((Entity) entity).getName().fullName.equals(toEditName)) {
                 model.setCurrentSelectedEntity((Entity) entity);
                 return new CommandResult(MESSAGE_SUCCESS, false, false, UiSwitchMode.VIEW);

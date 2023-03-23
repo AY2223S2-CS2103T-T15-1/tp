@@ -21,8 +21,8 @@ import seedu.address.experimental.model.entity.Mob;
  */
 public class TypicalEntities {
 
-    public static final Entity ALICE = new EntityBuilder().withName("Alice Pauline")
-            .withTags("friends").build();
+    public static final Entity LEEROY = new EntityBuilder().withName("Leeroy Jenkins")
+            .withTags("Warrior").build();
     public static final Entity BENSON = new EntityBuilder().withName("Benson Meier")
             .withTags("owesMoney", "friends").build();
     public static final Entity CARL = new EntityBuilder().withName("Carl Kurz").build();
@@ -63,6 +63,6 @@ public class TypicalEntities {
     }
 
     public static List<Entity> getTypicalEntities() {
-        return new ArrayList<>(Arrays.asList(ALICE, BENSON, CARL, DANIEL, ELLE, FIONA, GEORGE));
+        return new ArrayList<>(Arrays.asList(LEEROY, BENSON, CARL, DANIEL, ELLE, FIONA, GEORGE));
     }
 }
