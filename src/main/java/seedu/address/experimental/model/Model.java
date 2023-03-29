@@ -6,6 +6,7 @@ import java.util.function.Predicate;
 
 import javafx.collections.ObservableList;
 import seedu.address.commons.core.GuiSettings;
+import seedu.address.model.entity.Classification;
 import seedu.address.model.entity.Entity;
 import seedu.address.model.entity.Template;
 
@@ -59,6 +60,8 @@ public interface Model {
      */
     void setReroll(ReadOnlyReroll reroll);
 
+    Predicate<Entity> getClassificationPredicate(Classification classification);
+
     /**
      * Returns true if a entity with the same identity as {@code entity} exists in the address book.
      */
@@ -84,12 +87,7 @@ public interface Model {
     void setEntity(Entity target, Entity editedEntity);
 
     // ============== Filtered entity list =================
-    /**
-     * Returns the entities listed by the given predicate
-     * without modifying the selection
-     *
-     * @param predicate
-     */
+
     List<Entity> getSnapshotEntities(Predicate<? super Entity> predicate);
 
     /**
@@ -104,9 +102,6 @@ public interface Model {
      */
     void updateFilteredEntityList(Predicate<Entity> predicate);
 
-    /**
-     * Returns the current Predicate of the filtered list.
-     */
     Predicate<? super Entity> getCurrentPredicate();
 
     /**
