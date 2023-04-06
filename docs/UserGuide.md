@@ -71,8 +71,8 @@ Reroll is a **desktop app for managing tabletop RPG character, monster and item 
 
    * `list char` : Displays a list of all character entities.
    
-   * `template Wrestler John Cena`: Create a character sheet named `John Cena` based on 
-   a pre-existing character template called `Wrestler`.
+   * `template Orc John Cena`: Create a character sheet named `John Cena` based on 
+   a pre-existing character template called `Orc`.
    
    * `clear` : Deletes all entity sheets.
 
@@ -180,6 +180,10 @@ Format: `delete CLASSIFICATION NAME`
 Examples:
 * `delete char John Cena` will delete a `Character` with the exact name `John Cena`.
 
+### Show templates : `show`
+
+Shows all template names.
+
 ### Make new character from a template: `template`
 
 Creates a new Character from a pre-determined template
@@ -187,11 +191,7 @@ Creates a new Character from a pre-determined template
 Format: `template TEMPLATE_NAME NAME`
 
 Examples:
-* `template Wrestler John Cena` will create a new `Character` named `John Cena` using the template called `Wrestler`
-
-### Show templates : `show`
-
-Shows all template names.  
+* `template Orc John Cena` will create a new `Character` named `John Cena` using the template called `Orc`
 
 ### Clearing all entries : `clear`
 
@@ -288,16 +288,16 @@ Example: `make char John Cena` -> `m c John Cena`
 --------------------------------------------------------------------------------------------------------------------
 ## Command summary
 
-| Action                        | Format, Examples                                                      |
-|---------------------|-------------------------|
-| **Make**                      | `make CLASSIFICATION NAME` <br> e.g., `make char BigMcLargeHuge`      |
-| **Clear**                     | `clear`                                                               |
-| **Delete**                    | `kill CLASSIFICATION NAME`<br> e.g., `delete char BigMcLargeHuge`     |
-| **Enter Edit Mode**           | `edit CLASSIFICATION NAME`<br> e.g.,`edit char BigMcLargeHuge`        |
-| **Edit field (in Edit Mode)** | `FIELD NEW_VALUE` <br> e.g., `name SmallMcTinyMicro`                  |
-| **Find**                      | `find KEYWORD [MORE_KEYWORDS]`<br> e.g., `find Large`                 |
-| **Template**                  | `template TEMPLATE_NAME NAME` <br> e.g. `template Wrestler John Cena` |
-| **View** | `view CLASSIFICATION NAME` <br> e.g. `view char John Cena` |
-| **List entities**             | `list CLASSIFICATION` <br> e.g., `list item`                         |
-| **Help**                      | `help`                                                                |
-| **Filter** | `filter TAG [MORE_TAG]` <br> e.g., `filter elite` |
+| Action                        | Format, Examples                                                  |
+|---------------------|-------------------------------------------------------------------|
+| **Make**                      | `make CLASSIFICATION NAME` <br> e.g., `make char BigMcLargeHuge`  |
+| **Clear**                     | `clear`                                                           |
+| **Delete**                    | `kill CLASSIFICATION NAME`<br> e.g., `delete char BigMcLargeHuge` |
+| **Enter Edit Mode**           | `edit CLASSIFICATION NAME`<br> e.g.,`edit char BigMcLargeHuge`    |
+| **Edit field (in Edit Mode)** | `FIELD NEW_VALUE` <br> e.g., `name SmallMcTinyMicro`              |
+| **Find**                      | `find KEYWORD [MORE_KEYWORDS]`<br> e.g., `find Large`             |
+| **Template**                  | `template TEMPLATE_NAME NAME` <br> e.g. `template Orc John Cena`    |
+| **View** | `view CLASSIFICATION NAME` <br> e.g. `view char John Cena`        |
+| **List entities**             | `list CLASSIFICATION` <br> e.g., `list item`                      |
+| **Help**                      | `help`                                                            |
+| **Filter** | `filter TAG [MORE_TAG]` <br> e.g., `filter elite`                 |
