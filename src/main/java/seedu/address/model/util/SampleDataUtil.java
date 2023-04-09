@@ -28,12 +28,12 @@ public class SampleDataUtil {
         Tag undeadTag = new Tag("undead");
         Tag eliteTag = new Tag("elite");
         Item sword = new Item(new Name("Rusty Sword"), 3, 3, new HashSet<>(Arrays.asList(rustyTag)));
-        Item bow = new Item(new Name("Rusty Bow"), 4, 3, new HashSet<>(Arrays.asList(rustyTag)));
+        Item bow = new Item(new Name("Rusty Bow"), 4, 3.5f, new HashSet<>(Arrays.asList(rustyTag)));
         Item staff = new Item(new Name("Glorious Staff"), 20, 20, new HashSet<>());
         Item spellBook = new Item(new Name("Spellbook"), 5, 1, new HashSet<>());
-        Inventory i1 = new Inventory(Arrays.asList(new Item[] {sword}));
-        Inventory i2 = new Inventory(Arrays.asList(new Item[] {bow}));
-        Inventory i3 = new Inventory(Arrays.asList(new Item[] {staff, spellBook}));
+        Inventory i1 = new Inventory(Arrays.asList(sword));
+        Inventory i2 = new Inventory(Arrays.asList(bow));
+        Inventory i3 = new Inventory(Arrays.asList(staff, spellBook));
         Character c = new Character(new Name("Mike"), new Stats(3, 3, 3), 3, 2, i2, new HashSet<>());
         Mob m1 = new Mob(new Name("Skeleton Archer"), new Stats(20, 20, 20), 2,
                 false, i2, new HashSet<>(Arrays.asList(undeadTag)));
