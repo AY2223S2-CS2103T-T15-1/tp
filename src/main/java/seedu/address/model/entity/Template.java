@@ -4,10 +4,13 @@ import static java.util.Objects.requireNonNull;
 import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 import seedu.address.model.entity.exceptions.DuplicateTemplateException;
+import seedu.address.model.tag.Tag;
 
 /**
  * Class which stores a list of pre-determined character templates
@@ -31,9 +34,12 @@ public class Template {
         Stats orcStats = new Stats(15, 6, 1);
         Stats elfStats = new Stats(6, 10, 10);
         Stats humanStats = new Stats(7, 9, 9);
-        Character orcTemplate = new Character(new Name("orc"), orcStats);
-        Character elfTemplate = new Character(new Name("elf"), elfStats);
-        Character humanTemplate = new Character(new Name("human"), humanStats);
+        Character orcTemplate = new Character(new Name("orc"), orcStats, Character.BASE_LEVEL, Character.BASE_XP,
+                new HashSet<>(Arrays.asList(new Tag("orc"))));
+        Character elfTemplate = new Character(new Name("elf"), elfStats, Character.BASE_LEVEL, Character.BASE_XP,
+                new HashSet<>(Arrays.asList(new Tag("elf"))));
+        Character humanTemplate = new Character(new Name("human"), humanStats, Character.BASE_LEVEL, Character.BASE_XP,
+                new HashSet<>(Arrays.asList(new Tag("human"))));
         presetTemplates.addTemplate(orcTemplate);
         presetTemplates.addTemplate(elfTemplate);
         presetTemplates.addTemplate(humanTemplate);

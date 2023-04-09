@@ -12,8 +12,8 @@ import seedu.address.model.tag.Tag;
  * Represents a Character, which is a child class of Entity
  */
 public class Character extends Entity {
-    private static final int BASE_LEVEL = 1;
-    private static final int BASE_XP = 0;
+    public static final int BASE_LEVEL = 1;
+    public static final int BASE_XP = 0;
 
     private final Stats stats;
     private final Inventory inventory;
