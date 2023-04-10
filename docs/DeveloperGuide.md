@@ -530,29 +530,9 @@ testers are expected to do more *exploratory* testing.
     2. Re-launch the app by double-clicking the jar file.<br>
        Expected: The most recent window size and location is retained.
 
-3. _{ more test cases …​ }_
-
-### Deleting a entity
-
-1. Deleting a entity while all entities are being shown
-
-    1. Prerequisites: List all entities using the `list` command. Multiple entities in the list.
-
-    2. Test case: `delete 1`<br>
-       Expected: First contact is deleted from the list. Details of the deleted contact shown in the status message. Timestamp in the status bar is updated.
-
-    3. Test case: `delete 0`<br>
-       Expected: No entity is deleted. Error details shown in the status message. Status bar remains the same.
-
-    4. Other incorrect delete commands to try: `delete`, `delete x`, `...` (where x is larger than the list size)<br>
-       Expected: Similar to previous.
-
-2. _{ more test cases …​ }_
 
 ### Saving data
 
 1. Dealing with missing/corrupted data files
 
     1. _{explain how to simulate a missing/corrupted file, and the expected behavior}_
-
-1. _{ more test cases …​ }_

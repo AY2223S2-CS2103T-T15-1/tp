@@ -22,7 +22,7 @@ title: User Guide
     ·
     <a href="#FAQ">FAQ</a>
     ·
-    <a href="https://github.com/AY2223S2-CS2103T-T15-1/tp/blob/master/docs/AboutUs.md">Meet the Team</a>
+    <a href="https://ay2223s2-cs2103t-t15-1.github.io/tp/AboutUs.html">Meet the Team</a>
     <br />
     🎉 Version 1.2.1 is out. Check out the latest release
     <a href="https://github.com/AY2223S2-CS2103T-T15-1/tp/releases/">here</a>.
@@ -42,9 +42,6 @@ title: User Guide
 
 
 Reroll is a **desktop app for managing tabletop RPG character, monster and item sheets, optimized for use via a Command Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, Reroll can get your entity management tasks done faster than traditional GUI apps.
-
-* Table of Contents
-{:toc}
 
 --------------------------------------------------------------------------------------------------------------------
 
