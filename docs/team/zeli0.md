@@ -2,9 +2,11 @@
 # Elijah's Project Portfolio Page
 ---
 
-### Project: AddressBook Level 3
+### Project: Reroll
 
-AddressBook - Level 3 is a desktop address book application used for teaching Software Engineering principles. The user interacts with it using a CLI, and it has a GUI created with JavaFX. It is written in Java, and has about 10 kLoC.
+Reroll is a **desktop app for managing tabletop RPG character, monster and item sheets, optimized for use via a Command
+Line Interface** (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, Reroll
+can get your entity management tasks done faster than traditional GUI apps.
 
 Given below are my contributions to the project.
 
@@ -23,6 +25,9 @@ Given below are my contributions to the project.
 * **Project management**:
     * Cleaned up most of the old code related to the AddressBook base that Reroll was based off of (Pull Requests: [\#185](https://github.com/AY2223S2-CS2103T-T15-1/tp/pull/185))
 
+* **Team-based tasks**
+    * Managed releases `v1.2` - `v1.4` (3 releases) on GitHub
+
 * **Enhancements to existing features**:
     * Fixed error messages relating to certain commands in `edit value`(Pull Request: [\#200](https://github.com/AY2223S2-CS2103T-T15-1/tp/pull/200))
 
@@ -31,4 +36,5 @@ Given below are my contributions to the project.
         * Added documentation for the feature `edit value` and the specifics about `fields` in that command [\#200](https://github.com/AY2223S2-CS2103T-T15-1/tp/pull/200)
         * Added images to help with users understanding how to use commands (Pull Request: [\#217](https://github.com/AY2223S2-CS2103T-T15-1/tp/pull/217))
 
-
+* **Community**:
+    * Reported bugs and suggestions for other teams in the class (examples: [\#149](https://github.com/AY2223S2-CS2103T-W15-3/tp/issues/149), [\#127](https://github.com/AY2223S2-CS2103T-W15-3/tp/issues/127), [\#150](https://github.com/AY2223S2-CS2103T-W15-3/tp/issues/150), [\#120](https://github.com/AY2223S2-CS2103T-W15-3/tp/issues/120))
