@@ -33,18 +33,18 @@ Given below are my contributions to the project.
 
 ### Team-based tasks
 * Managed releases `v1.2` - `v1.4` (3 releases) on GitHub
-    
+
 ### Documentation:
 * User Guide:
     * Added entity classifications.
     * Added list of fields for each entity.
     * Added `make`, `delete`, `template`, `show` features.
-    * Added command summary for commands/fields with short-form variants 
+    * Added command summary for commands/fields with short-form variants
 * Developer Guide:
     * Added implementation details of the `make` feature.
     * Added planned enhancements for the `delete` feature.
     * Updated various UML diagrams to reflect the Reroll architecture.
-    
+
 * **Tools**:
     * Integrated a third party library (Apache Commons) to the project
-    
+

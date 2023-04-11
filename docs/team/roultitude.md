@@ -50,4 +50,3 @@ Given below are my contributions to the project.
         * Added documentation for the `Ui` component
           and `Edit Mode Logic` [\#92](https://github.com/AY2223S2-CS2103T-T15-1/tp/pull/92)
         * Added documentation for entity `Inventory` [\#214](https://github.com/AY2223S2-CS2103T-T15-1/tp/pull/214)
-        
