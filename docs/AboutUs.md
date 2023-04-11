@@ -1,6 +1,5 @@
 ---
-layout: page
-title: About Us
+layout: page title: About Us
 ---
 
 We are a team based in the [School of Computing, National University of Singapore](http://www.comp.nus.edu.sg).
@@ -14,8 +13,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 <img src="images/johndoe.png" width="200px">
 
 [[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
 
 - Role: Project Advisor
 
@@ -51,7 +48,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Ang Jun Yang
 
-<img src="images/Ang_Jun_Yang.png" width="200px">
+<img src="images/angjunyang.png" width="200px">
 
 [[github](https://github.com/AngJunYang)]
 [[portfolio](team/junyang.md)]
@@ -67,5 +64,5 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/roultitude.md)]
 
 - Role: Developer
-- Responsibilities:
+- Responsibilities: In-charge of UI, Primary Feature Integrator
 
