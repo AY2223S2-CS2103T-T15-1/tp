@@ -104,9 +104,9 @@ This is a definitive list of the different fields each entity has:
 
 | Character    | Mob              | Item   |
 |--------------|------------------|--------|
-| Name         | Name             | Name   | 
+| Name         | Name             | Name   |
 | Strength     | Strength         | Cost   |
-| Dexterity    | Dexterity        | Weight | 
+| Dexterity    | Dexterity        | Weight |
 | Intelligence | Intelligence     | Tags   |
 | Level        | Challenge Rating |        |
 | XP           | Legendary        |        |
@@ -117,9 +117,9 @@ Each field accepts a certain type of value and has a number of command terms, as
 
 | Field            | Command Term          | Value Type           |
 |------------------|-----------------------|----------------------|
-| Name             | name                  | Alphanumeric String  | 
+| Name             | name                  | Alphanumeric String  |
 | Strength         | strength, str         | `int`                |
-| Dexterity        | dexterity, dex        | `int`                | 
+| Dexterity        | dexterity, dex        | `int`                |
 | Intelligence     | intelligence          | `int`                |
 | Level            | level                 | `int`                |
 | XP               | exp, xp               | `int`                |
@@ -420,13 +420,13 @@ Example: `make char John Cena` -> `m c John Cena`
 
 ### In Edit Mode
 
-|Reference        | Full      | Short-form  |
+| Reference        | Full      | Short-form  |
 |------------------|-----------|-------------|
 | Strength         | strength  | s           |
 | Dexterity        | dexterity | d           |
 | Level            | level     | lvl         |
 | Name             | name      | n           |
-| Tags             | tags      | t           | 
+| Tags             | tags      | t           |
 | Inventory        | inventory | inv         |
 
 Example: `inventory add Sword` -> `inv add Sword`
@@ -440,7 +440,7 @@ Example: `inventory add Sword` -> `inv add Sword`
 |-------------------------------|---------------------------------------------------------------------|
 | **Make**                      | `make CLASSIFICATION NAME` <br> e.g., `make char BigMcLargeHuge`    |
 | **Clear All**                 | `clear all`                                                         |
-| **Clear Selected**            | `clear selected`                                                    |    
+| **Clear Selected**            | `clear selected`                                                    |
 | **Delete**                    | `delete CLASSIFICATION NAME`<br> e.g., `delete char BigMcLargeHuge` |
 | **Enter Edit Mode**           | `edit CLASSIFICATION NAME`<br> e.g.,`edit char BigMcLargeHuge`      |
 | **Edit field (in Edit Mode)** | `FIELD NEW_VALUE` <br> e.g., `name SmallMcTinyMicro`                |
